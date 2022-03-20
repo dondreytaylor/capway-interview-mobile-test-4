@@ -3,7 +3,7 @@ Referencing the designs below, create an iOS application that shows general acco
 
 ## Design Preview
 
-![Screens](readme-assets/preview.png)
+![Screens](readme-assets/screen-preview.png)
 
 
 This screen can also be found within our app in the app store: 
