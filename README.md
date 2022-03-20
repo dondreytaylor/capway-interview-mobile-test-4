@@ -24,9 +24,12 @@ Develop a the full design according to the following requirements.
 - Ignore all animations. The zoom in effect that appears when tapping an image does not need to be replicated, nor do you have to make it so that you can swipe on the image to get to the next.
 - Search does not need to work
 - Tapping on the options within the tab menu only needs to change the UIViewController to an empty white screen
+- Pre-populate the screen with at least 10 transactions
+- Use any transaction category icon beside each transaction UITableViewCell
 
 ### BONUS:
 - Make top sliding navigation work in such a way that tapping on the menu options changes the screen to a white UIView
+- Make it so that scrolling to the very bottom of the screens adds another 10 transactions (i.e. 10 UITableView Cells representing a transaction)
 
 ## Submitting
 If you have any questions about the tech or design specifications or have submitted your application, please email dondrey@capway.com.
