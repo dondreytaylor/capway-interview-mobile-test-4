@@ -12,8 +12,6 @@ https://apps.apple.com/us/app/capway-more-than-banking/id1217543033
 
 ## Requirements
 
-Develop a the full design according to the following requirements.
-
 - Fork this repo before making any changes
 - Frequently commit your changes to GIT, with proper messages on each commit.
 - General layout should consist of a tabbar, UITableView, and two UITableViewCells (one for the top part consisting of search and above, while the second consists a single transaction)
