@@ -7,6 +7,7 @@ Referencing the designs below, create an iOS application that shows general acco
 
 
 This screen can also be found within our app in the app store: 
+
 https://apps.apple.com/us/app/capway-more-than-banking/id1217543033
 
 
