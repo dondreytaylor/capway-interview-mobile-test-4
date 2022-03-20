@@ -1,5 +1,5 @@
 # CapWay Interview (iOS)
-Referencing the designs below, create an iOS application that mimics a minimal amount and very basic functionality of the below screens.
+Referencing the designs below, create an iOS application that shows general account details with a few transactions.
 
 ## Design Preview
 
