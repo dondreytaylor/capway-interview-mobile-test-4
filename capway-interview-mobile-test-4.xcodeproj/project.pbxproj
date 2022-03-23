@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE811E5E27E8138D00DD8C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E5D27E8138D00DD8C0B /* AppDelegate.swift */; };
+		AE811E6027E8138D00DD8C0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E5F27E8138D00DD8C0B /* SceneDelegate.swift */; };
+		AE811E6727E8139200DD8C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE811E6627E8139200DD8C0B /* Assets.xcassets */; };
+		AE811E6A27E8139200DD8C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE811E6827E8139200DD8C0B /* LaunchScreen.storyboard */; };
+		AE811E7327E8149C00DD8C0B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E7227E8149B00DD8C0B /* AccountViewController.swift */; };
+		AE811E7527E814D700DD8C0B /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E7427E814D700DD8C0B /* SendViewController.swift */; };
+		AE811E7727E814E400DD8C0B /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E7627E814E400DD8C0B /* MoreViewController.swift */; };
+		AE811E7927E814FB00DD8C0B /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E7827E814FB00DD8C0B /* LearnViewController.swift */; };
+		AE811E7B27E8150600DD8C0B /* PhundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E7A27E8150600DD8C0B /* PhundsViewController.swift */; };
+		AE811E7D27E8155D00DD8C0B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E7C27E8155D00DD8C0B /* MainTabBarController.swift */; };
+		AE811E7F27E816A400DD8C0B /* AccountNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E7E27E816A400DD8C0B /* AccountNavigationController.swift */; };
+		AE811E8127E8580D00DD8C0B /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E8027E8580D00DD8C0B /* CustomTabBarItem.swift */; };
+		AE811E8427E858BD00DD8C0B /* CustomCenterTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E8327E858BD00DD8C0B /* CustomCenterTabBarItem.swift */; };
+		AE811E8B27E950E400DD8C0B /* AccountTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E8A27E950E400DD8C0B /* AccountTableView.swift */; };
+		AE811E8D27E9519300DD8C0B /* AccountBalanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E8C27E9519300DD8C0B /* AccountBalanceTableViewCell.swift */; };
+		AE811E8F27E951A100DD8C0B /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E8E27E951A100DD8C0B /* TransactionTableViewCell.swift */; };
+		AE811E9227E953CE00DD8C0B /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E9127E953CE00DD8C0B /* ProfileImageView.swift */; };
+		AE811E9527E958E000DD8C0B /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E9427E958E000DD8C0B /* UIViewExtension.swift */; };
+		AE811E9827E9631700DD8C0B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E9727E9631700DD8C0B /* Transaction.swift */; };
+		AE811E9A27E9669200DD8C0B /* TransactionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E9927E9669200DD8C0B /* TransactionProvider.swift */; };
+		AE811E9C27E966A700DD8C0B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811E9B27E966A700DD8C0B /* Account.swift */; };
+		AE811EA127E9F0D800DD8C0B /* AccountBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811EA027E9F0D800DD8C0B /* AccountBalanceView.swift */; };
+		AE811EA527E9F24800DD8C0B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811EA427E9F24800DD8C0B /* CardView.swift */; };
+		AE811EAB27EA2E5D00DD8C0B /* AccountProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811EAA27EA2E5D00DD8C0B /* AccountProvider.swift */; };
+		AE811EAD27EA75D100DD8C0B /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811EAC27EA75D100DD8C0B /* UITextFieldExtension.swift */; };
+		AE811EAF27EA7FE000DD8C0B /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811EAE27EA7FE000DD8C0B /* CustomSegmentedControl.swift */; };
+		AE811EB227EA850400DD8C0B /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811EB127EA850400DD8C0B /* CustomSearchBar.swift */; };
+		AE811EB627EAB67600DD8C0B /* SlidingNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE811EB527EAB67600DD8C0B /* SlidingNavigationView.swift */; };
+		AEC714B627EB4325002354A7 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC714B527EB4325002354A7 /* BlankView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE811E5A27E8138D00DD8C0B /* capway-interview-mobile-test-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "capway-interview-mobile-test-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE811E5D27E8138D00DD8C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE811E5F27E8138D00DD8C0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE811E6627E8139200DD8C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE811E6927E8139200DD8C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE811E6B27E8139200DD8C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE811E7227E8149B00DD8C0B /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		AE811E7427E814D700DD8C0B /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		AE811E7627E814E400DD8C0B /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		AE811E7827E814FB00DD8C0B /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		AE811E7A27E8150600DD8C0B /* PhundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhundsViewController.swift; sourceTree = "<group>"; };
+		AE811E7C27E8155D00DD8C0B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		AE811E7E27E816A400DD8C0B /* AccountNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNavigationController.swift; sourceTree = "<group>"; };
+		AE811E8027E8580D00DD8C0B /* CustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
+		AE811E8327E858BD00DD8C0B /* CustomCenterTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCenterTabBarItem.swift; sourceTree = "<group>"; };
+		AE811E8A27E950E400DD8C0B /* AccountTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableView.swift; sourceTree = "<group>"; };
+		AE811E8C27E9519300DD8C0B /* AccountBalanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceTableViewCell.swift; sourceTree = "<group>"; };
+		AE811E8E27E951A100DD8C0B /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		AE811E9127E953CE00DD8C0B /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		AE811E9427E958E000DD8C0B /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		AE811E9727E9631700DD8C0B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		AE811E9927E9669200DD8C0B /* TransactionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionProvider.swift; sourceTree = "<group>"; };
+		AE811E9B27E966A700DD8C0B /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		AE811EA027E9F0D800DD8C0B /* AccountBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceView.swift; sourceTree = "<group>"; };
+		AE811EA427E9F24800DD8C0B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AE811EAA27EA2E5D00DD8C0B /* AccountProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountProvider.swift; sourceTree = "<group>"; };
+		AE811EAC27EA75D100DD8C0B /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		AE811EAE27EA7FE000DD8C0B /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		AE811EB127EA850400DD8C0B /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		AE811EB527EAB67600DD8C0B /* SlidingNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingNavigationView.swift; sourceTree = "<group>"; };
+		AEC714B527EB4325002354A7 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE811E5727E8138D00DD8C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE811E5127E8138D00DD8C0B = {
+			isa = PBXGroup;
+			children = (
+				AE811E5C27E8138D00DD8C0B /* capway-interview-mobile-test-4 */,
+				AE811E5B27E8138D00DD8C0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE811E5B27E8138D00DD8C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E5A27E8138D00DD8C0B /* capway-interview-mobile-test-4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE811E5C27E8138D00DD8C0B /* capway-interview-mobile-test-4 */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E5D27E8138D00DD8C0B /* AppDelegate.swift */,
+				AE811E5F27E8138D00DD8C0B /* SceneDelegate.swift */,
+				AE811E7C27E8155D00DD8C0B /* MainTabBarController.swift */,
+				AE811E8227E8581500DD8C0B /* TabBarItems */,
+				AE811E7127E8143200DD8C0B /* ViewControllers */,
+				AE811E9327E958C300DD8C0B /* Extensions */,
+				AE811E6627E8139200DD8C0B /* Assets.xcassets */,
+				AE811E6827E8139200DD8C0B /* LaunchScreen.storyboard */,
+				AE811E6B27E8139200DD8C0B /* Info.plist */,
+			);
+			path = "capway-interview-mobile-test-4";
+			sourceTree = "<group>";
+		};
+		AE811E7127E8143200DD8C0B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E8527E85DF500DD8C0B /* Account */,
+				AE811E8627E85E0D00DD8C0B /* Send */,
+				AE811E8727E85E2C00DD8C0B /* More */,
+				AE811E8827E85E3100DD8C0B /* Learn */,
+				AE811E8927E85E3600DD8C0B /* Phunds */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE811E8227E8581500DD8C0B /* TabBarItems */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E8027E8580D00DD8C0B /* CustomTabBarItem.swift */,
+				AE811E8327E858BD00DD8C0B /* CustomCenterTabBarItem.swift */,
+			);
+			path = TabBarItems;
+			sourceTree = "<group>";
+		};
+		AE811E8527E85DF500DD8C0B /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E7E27E816A400DD8C0B /* AccountNavigationController.swift */,
+				AE811E7227E8149B00DD8C0B /* AccountViewController.swift */,
+				AE811E9627E962E900DD8C0B /* AccountModels */,
+				AE811E9E27E9728F00DD8C0B /* AccountDataProviders */,
+				AE811E9027E9539300DD8C0B /* AccountViews */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		AE811E8627E85E0D00DD8C0B /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E7427E814D700DD8C0B /* SendViewController.swift */,
+			);
+			path = Send;
+			sourceTree = "<group>";
+		};
+		AE811E8727E85E2C00DD8C0B /* More */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E7627E814E400DD8C0B /* MoreViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		AE811E8827E85E3100DD8C0B /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E7827E814FB00DD8C0B /* LearnViewController.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		AE811E8927E85E3600DD8C0B /* Phunds */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E7A27E8150600DD8C0B /* PhundsViewController.swift */,
+			);
+			path = Phunds;
+			sourceTree = "<group>";
+		};
+		AE811E9027E9539300DD8C0B /* AccountViews */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E9127E953CE00DD8C0B /* ProfileImageView.swift */,
+				AE811EB527EAB67600DD8C0B /* SlidingNavigationView.swift */,
+				AEC714B527EB4325002354A7 /* BlankView.swift */,
+				AE811E8A27E950E400DD8C0B /* AccountTableView.swift */,
+				AE811E9D27E970FB00DD8C0B /* AccountTableViewCells */,
+			);
+			path = AccountViews;
+			sourceTree = "<group>";
+		};
+		AE811E9327E958C300DD8C0B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E9427E958E000DD8C0B /* UIViewExtension.swift */,
+				AE811EAC27EA75D100DD8C0B /* UITextFieldExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AE811E9627E962E900DD8C0B /* AccountModels */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E9B27E966A700DD8C0B /* Account.swift */,
+				AE811E9727E9631700DD8C0B /* Transaction.swift */,
+			);
+			path = AccountModels;
+			sourceTree = "<group>";
+		};
+		AE811E9D27E970FB00DD8C0B /* AccountTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AE811E8C27E9519300DD8C0B /* AccountBalanceTableViewCell.swift */,
+				AE811E9F27E9F0B100DD8C0B /* AccountTableViewCellSubviews */,
+				AE811E8E27E951A100DD8C0B /* TransactionTableViewCell.swift */,
+			);
+			path = AccountTableViewCells;
+			sourceTree = "<group>";
+		};
+		AE811E9E27E9728F00DD8C0B /* AccountDataProviders */ = {
+			isa = PBXGroup;
+			children = (
+				AE811EAA27EA2E5D00DD8C0B /* AccountProvider.swift */,
+				AE811E9927E9669200DD8C0B /* TransactionProvider.swift */,
+			);
+			path = AccountDataProviders;
+			sourceTree = "<group>";
+		};
+		AE811E9F27E9F0B100DD8C0B /* AccountTableViewCellSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				AE811EA027E9F0D800DD8C0B /* AccountBalanceView.swift */,
+				AE811EA427E9F24800DD8C0B /* CardView.swift */,
+				AE811EAE27EA7FE000DD8C0B /* CustomSegmentedControl.swift */,
+				AE811EB127EA850400DD8C0B /* CustomSearchBar.swift */,
+			);
+			path = AccountTableViewCellSubviews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE811E5927E8138D00DD8C0B /* capway-interview-mobile-test-4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE811E6E27E8139200DD8C0B /* Build configuration list for PBXNativeTarget "capway-interview-mobile-test-4" */;
+			buildPhases = (
+				AE811E5627E8138D00DD8C0B /* Sources */,
+				AE811E5727E8138D00DD8C0B /* Frameworks */,
+				AE811E5827E8138D00DD8C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "capway-interview-mobile-test-4";
+			productName = "capway-interview-mobile-test-4";
+			productReference = AE811E5A27E8138D00DD8C0B /* capway-interview-mobile-test-4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE811E5227E8138D00DD8C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AE811E5927E8138D00DD8C0B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AE811E5527E8138D00DD8C0B /* Build configuration list for PBXProject "capway-interview-mobile-test-4" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE811E5127E8138D00DD8C0B;
+			productRefGroup = AE811E5B27E8138D00DD8C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE811E5927E8138D00DD8C0B /* capway-interview-mobile-test-4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE811E5827E8138D00DD8C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE811E6A27E8139200DD8C0B /* LaunchScreen.storyboard in Resources */,
+				AE811E6727E8139200DD8C0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE811E5627E8138D00DD8C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE811E7927E814FB00DD8C0B /* LearnViewController.swift in Sources */,
+				AE811EAD27EA75D100DD8C0B /* UITextFieldExtension.swift in Sources */,
+				AE811E7D27E8155D00DD8C0B /* MainTabBarController.swift in Sources */,
+				AE811E8F27E951A100DD8C0B /* TransactionTableViewCell.swift in Sources */,
+				AE811E8427E858BD00DD8C0B /* CustomCenterTabBarItem.swift in Sources */,
+				AE811E5E27E8138D00DD8C0B /* AppDelegate.swift in Sources */,
+				AE811E7327E8149C00DD8C0B /* AccountViewController.swift in Sources */,
+				AE811E9827E9631700DD8C0B /* Transaction.swift in Sources */,
+				AE811E7F27E816A400DD8C0B /* AccountNavigationController.swift in Sources */,
+				AE811E8B27E950E400DD8C0B /* AccountTableView.swift in Sources */,
+				AE811EA127E9F0D800DD8C0B /* AccountBalanceView.swift in Sources */,
+				AEC714B627EB4325002354A7 /* BlankView.swift in Sources */,
+				AE811E8127E8580D00DD8C0B /* CustomTabBarItem.swift in Sources */,
+				AE811E7727E814E400DD8C0B /* MoreViewController.swift in Sources */,
+				AE811E9527E958E000DD8C0B /* UIViewExtension.swift in Sources */,
+				AE811EB227EA850400DD8C0B /* CustomSearchBar.swift in Sources */,
+				AE811E7527E814D700DD8C0B /* SendViewController.swift in Sources */,
+				AE811E7B27E8150600DD8C0B /* PhundsViewController.swift in Sources */,
+				AE811E9A27E9669200DD8C0B /* TransactionProvider.swift in Sources */,
+				AE811E9227E953CE00DD8C0B /* ProfileImageView.swift in Sources */,
+				AE811E6027E8138D00DD8C0B /* SceneDelegate.swift in Sources */,
+				AE811E9C27E966A700DD8C0B /* Account.swift in Sources */,
+				AE811EA527E9F24800DD8C0B /* CardView.swift in Sources */,
+				AE811EB627EAB67600DD8C0B /* SlidingNavigationView.swift in Sources */,
+				AE811E8D27E9519300DD8C0B /* AccountBalanceTableViewCell.swift in Sources */,
+				AE811EAF27EA7FE000DD8C0B /* CustomSegmentedControl.swift in Sources */,
+				AE811EAB27EA2E5D00DD8C0B /* AccountProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE811E6827E8139200DD8C0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE811E6927E8139200DD8C0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE811E6C27E8139200DD8C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE811E6D27E8139200DD8C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE811E6F27E8139200DD8C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A5BK366CA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "capway-interview-mobile-test-4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanprince.capway-interview-mobile-test-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE811E7027E8139200DD8C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A5BK366CA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "capway-interview-mobile-test-4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanprince.capway-interview-mobile-test-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE811E5527E8138D00DD8C0B /* Build configuration list for PBXProject "capway-interview-mobile-test-4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE811E6C27E8139200DD8C0B /* Debug */,
+				AE811E6D27E8139200DD8C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE811E6E27E8139200DD8C0B /* Build configuration list for PBXNativeTarget "capway-interview-mobile-test-4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE811E6F27E8139200DD8C0B /* Debug */,
+				AE811E7027E8139200DD8C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE811E5227E8138D00DD8C0B /* Project object */;
+}
